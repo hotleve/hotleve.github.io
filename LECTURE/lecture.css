@@ -1,0 +1,112 @@
+body{
+    font-size: 16px;
+    margin: 0%;
+    width: 100vw;
+}
+::-webkit-scrollbar { display: none; }
+
+
+
+#menu{
+    font-size: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 2;
+    top: 2vh;
+    justify-content: space-around;
+    font-weight: bolder;
+
+}
+
+.menu-text{
+    transform: scaleX(1.6);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.header{
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 2vh;
+    z-index: 1;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+    top:15vh;
+    line-height: 40px;
+}
+
+.Title{
+    font-size: 40px;
+    line-height: 90px;
+}
+
+.author{
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.paragraph{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.page_content{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+
+a:link { color: black; text-decoration: none; cursor: pointer; }
+a:visited { color: black; text-decoration: none;  cursor: pointer; }
+a:hover { color: red; text-decoration: none;  cursor: pointer; }
+a:active { color: black; background-color: none;   cursor: pointer;}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:500px){
+    img{
+        max-width: 90vw;
+        height: auto;
+        position: fixed;
+        top: 20vh;
+    }
+}
+
+
+@media (max-width:500px){
+    .header{
+        width: 100vw;
+        height: 5vh;
+        top: 0%;
+    }
+
+    .wrapper{
+        font-size: 4vw;
+        overflow: hidden;
+    }
+
+    .page_content{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+
+    #menu{
+        top: 0vh;
+        height: 0.5vh;
+        font-size: 4vh;
+    }
+}
