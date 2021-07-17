@@ -90,4 +90,9 @@ a:active { color: black; background-color: none;   cursor: pointer;}
         height: 0.5vh;
         font-size: 4vh;
     }
+
+    img{
+        width: 90vw;
+        height: auto;
+    }
 }
