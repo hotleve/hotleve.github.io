@@ -92,7 +92,7 @@ a:active { color: black; background-color: none;   cursor: pointer;}
     }
 
     img{
-        width: 90vw;
-        height: auto;
+        width: 90vw !important;
+        height: auto !important;
     }
 }
