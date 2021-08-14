@@ -3,7 +3,6 @@ body{
     margin: 0%;
     width: 100vw;
 }
-::-webkit-scrollbar { display: none; }
 
 
 
@@ -69,7 +68,7 @@ a:hover { color: red; text-decoration: none;  cursor: pointer; }
 a:active { color: black; background-color: none;   cursor: pointer;}
 
 
-@media (max-width:500px){
+@media (max-width:800px){
     .header{
         width: 100vw;
         height: 5vh;

@@ -3,7 +3,6 @@ body{
     margin: 0%;
     width: 100vw;
 }
-::-webkit-scrollbar { display: none; }
 
 
 
@@ -76,7 +75,7 @@ a:active { color: black; background-color: none;   cursor: pointer;}
 }
 
 
-@media (max-width:500px){
+@media (max-width:800px){
     img{
         max-width: 90vw;
         height: auto;
@@ -86,7 +85,7 @@ a:active { color: black; background-color: none;   cursor: pointer;}
 }
 
 
-@media (max-width:500px){
+@media (max-width:800px){
     .header{
         width: 100vw;
         height: 5vh;
@@ -99,8 +98,9 @@ a:active { color: black; background-color: none;   cursor: pointer;}
     }
 
     .page_content{
-        padding-left: 5vw;
-        padding-right: 5vw;
+        font-size: larger;
+        padding-left: 6vw;
+        padding-right: 6vw;
     }
 
 
