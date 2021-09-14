@@ -19,10 +19,9 @@ h1{
     flex-direction: row;
     position: fixed;
     z-index: 2;
-    top: 2vh;
+    top: 1vh;
     justify-content: space-around;
     font-weight: bolder;
-
 }
 
 .menu-text{
@@ -43,7 +42,7 @@ h1{
     width: 100%;
     position: relative;
     top:15vh;
-    line-height: 40px;
+    line-height: 25px;
 }
 
 .Title{
@@ -81,6 +80,7 @@ a:active { color: black; background-color: none;   cursor: pointer;}
     .wrapper{
         font-size: 4vw;
         overflow: hidden;
+        line-height: 6vw;
     }
 
     .page_content{
@@ -90,7 +90,7 @@ a:active { color: black; background-color: none;   cursor: pointer;}
 
 
     #menu{
-        top: 0vh;
+        top: 3vh;
         height: 0.5vh;
         font-size: 4vh;
     }
